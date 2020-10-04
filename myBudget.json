@@ -1,0 +1,34 @@
+
+[
+{
+    "title": "Eating out",
+    "budget": 30
+    
+},
+{
+    "title": "Rent",
+    "budget": 400
+
+},
+{
+    "title": "Grocery",
+    "budget": 90
+},
+{
+    "title": "Cell Phone",
+    "budget": 50
+},
+{
+    "title": "Water",
+    "budget": 20
+},
+{
+    "title": "Power",
+    "budget": 120
+},
+{
+    "title": "Savings",
+    "budget": 80
+}
+
+]

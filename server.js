@@ -4,22 +4,8 @@ const port = 3000;
 
 app.use('/', express.static('public'));
 
-const budget = {
-    myBudget: [
-    {  title: 'Eat Out',
-    budget: 30
-    },
 
-    {
-        title: 'Rent',
-        budget: 300
-    },
-    { title: 'Grocery',
-    budget: 90
-    },
-
-    ]
-};
+const budgetData =  require('./myBudget')
 
 app.get('/hello', (req, res) => {
 
@@ -28,9 +14,9 @@ app.get('/hello', (req, res) => {
 
 app.get('/budget', (req, res) => 
 {
-    res.json(budget);
+    res.json(budgetData);
 });
 
 app.listen(port, () => {
-    console.log('Example app listening at  http://localhost:${port}')
+    console.log("Example app listening at http://localhost:${port}");
 });
